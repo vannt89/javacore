@@ -18,13 +18,13 @@ public class Main {
 
         ////homework day2
         ////B1
-//        System.out.println("*****Bài 1 - Nhập vào 1 tháng bất kì và in ra số ngày trong tháng đó*****");
-//        System.out.println("Enter month: ");
-//        int month = scanner.nextInt();
-//
-//        Month m = new Month();
-//        m.showDatesOfMonth(month);
-//        m.getDatesInMonth(month);
+        System.out.println("*****Bài 1 - Nhập vào 1 tháng bất kì và in ra số ngày trong tháng đó*****");
+        System.out.println("Enter month: ");
+        int month = scanner.nextInt();
+
+        Month m = new Month();
+        m.showDatesOfMonth(month);
+        m.getDatesInMonth(month);
 
         ////B2
         System.out.println("\n*****Bài 2 - Giải phương trình bậc 2*****");
@@ -41,18 +41,18 @@ public class Main {
         ptb2.tinhNghiemPTB2(a, b, c);
 
         ////B3
-//        System.out.println("\n*****Bài 3 - Kiếm tra 3 số nhập vào có phải là 1 tam giác hay không*****");
-//        System.out.println("Enter a: ");
-//        float a1 = scanner.nextFloat();
-//
-//        System.out.println("Enter b: ");
-//        float b1 = scanner.nextFloat();
-//
-//        System.out.println("Enter c: ");
-//        float c1 = scanner.nextFloat();
-//
-//        Triangle triangle = new Triangle();
-//        triangle.checkTriangle(a1, b1, c1);
+        System.out.println("\n*****Bài 3 - Kiếm tra 3 số nhập vào có phải là 1 tam giác hay không*****");
+        System.out.println("Enter a: ");
+        float a1 = scanner.nextFloat();
+
+        System.out.println("Enter b: ");
+        float b1 = scanner.nextFloat();
+
+        System.out.println("Enter c: ");
+        float c1 = scanner.nextFloat();
+
+        Triangle triangle = new Triangle();
+        triangle.checkTriangle(a1, b1, c1);
     }
 
 }
