@@ -18,7 +18,7 @@ public class Fibonacci {
         int count = 0;
         int i = 0;
         while (count < n) {
-            System.out.print(fibonacciForLoop(i) + "\t");
+            System.out.print(fibonacciWhileLoop(i) + "\t");
             count++;
             i++;
         }

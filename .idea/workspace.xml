@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e54924-7283-44a9-a884-5eea4beae2ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day3_Loop/Day3_Loop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_Loop/src/DoWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_Loop/src/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_Loop/src/ForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_Loop/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_Loop/src/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_Loop/src/WhileLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/Day2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_ConditionalStatement/Day2_ConditionalStatement.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/src/BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_ConditionalStatement/src/BMI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/src/GiaiPTBac2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_ConditionalStatement/src/GiaiPTBac2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_ConditionalStatement/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/src/Month.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_ConditionalStatement/src/Month.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/src/StringInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_ConditionalStatement/src/StringInJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_ConditionalStatement/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Loop/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_Loop/src/Fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,16 +152,5 @@
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="97" y="57" key="new project wizard/0.23.1440.824@0.23.1440.824" timestamp="1620869106724" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Day3_Loop/src/PrimeNumber.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
