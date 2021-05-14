@@ -4,7 +4,7 @@ public class PrimeNumber {
     Scanner scanner = new Scanner(System.in);
 
     void giaiBT1() {
-        System.out.println("Bài 1 - Viết chương trình liệt kê n số nguyên tố đầu tiên");
+        System.out.println("Bài 1 - P1 - Viết chương trình liệt kê n số nguyên tố đầu tiên");
         System.out.println("Enter n: ");
         int n = scanner.nextInt();
 
@@ -38,22 +38,18 @@ public class PrimeNumber {
 //            }
 //            i++;
 //        } while (count < n);
-    }
 
-    void giaiBT2() {
-        System.out.println("Bài 2 - Viết chương trình liệt kê các số nguyên tố nhỏ hơn n");
-        System.out.println("Enter n: ");
-        int n = scanner.nextInt();
-        int count = 0;
-        int i = 0;
-        while (i < n) {
-            if (checkPrimeNumberWhileLoop(i)) {
-                System.out.print(i + "\t");
-                count++;
+        System.out.println("\n\nBài 1 - P2 - Viết chương trình liệt kê các số nguyên tố nhỏ hơn 100");
+        int count1 = 0;
+        int j = 0;
+        while (j < 100) {
+            if (checkPrimeNumberWhileLoop(j)) {
+                System.out.print(j + "\t");
+                count1++;
             }
-            i++;
+            j++;
         }
-        System.out.println("\nCó tất cả " + count + " số nguyên tố trong phạm vi từ 0 - " + n);
+        System.out.println("\nCó tất cả " + count1 + " số nguyên tố trong phạm vi từ 0 - 100");
     }
 
     //số nguyên tố là số chia hết cho 1 và chính nó

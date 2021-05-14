@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Fibonacci {
     Scanner scanner = new Scanner(System.in);
 
-    void giaiBT3() {
-        System.out.println("Bài 3 - Viết chương trình liệt kê n số fibonacci đầu tiên");
+    void giaiBT2() {
+        System.out.println("Bài 2 - P1 - Viết chương trình liệt kê n số fibonacci đầu tiên");
         System.out.println("Enter n: ");
         int n = scanner.nextInt();
 //        ////C1: for
@@ -21,6 +21,14 @@ public class Fibonacci {
             System.out.print(fibonacciWhileLoop(i) + "\t");
             count++;
             i++;
+        }
+
+        System.out.println("\n\nBài 2 - P2 - Viết chương trình liệt kê các số Fibonacci nhỏ hơn 100");
+        for (int k = 0; k < 100; k++) {
+            int fiboNumber = fibonacciForLoop(k);
+            if (fiboNumber > 0 && fiboNumber < 100) {
+                System.out.print(fiboNumber + " ");
+            }
         }
     }
 
