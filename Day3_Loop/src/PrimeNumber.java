@@ -17,11 +17,11 @@ public class PrimeNumber {
             }
         }
 
-//        ////C2: while
+        ////C2: while
 //        int count = 0;
 //        int i = 0;
 //        while (count < n) {
-//            if (primeNumber.checkPrimeNumberWhileLoop(i)) {
+//            if (checkPrimeNumberWhileLoop(i)) {
 //                System.out.print(i + "\t");
 //                count++;
 //            }
@@ -32,7 +32,7 @@ public class PrimeNumber {
 //        int count = 0;
 //        int i = 0;
 //        do {
-//            if (primeNumber.checkPrimeNumberDoWhileLoop(i)) {
+//            if (checkPrimeNumberDoWhileLoop(i)) {
 //                System.out.print(i + "\t");
 //                count++;
 //            }
