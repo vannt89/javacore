@@ -6,9 +6,9 @@ public class Bai4 {
     GiaiThua giaiThua = new GiaiThua();
 
     void giaiBT4() {
-        System.out.println("Bài 4 - Viết chương trình tạo một số ngẫu nhiên, kiểm tra số đó có là số nguyên tố hay không? Tính giai thừa của số đó");
+        System.out.println("\n\nBài 4 - Viết chương trình tạo một số ngẫu nhiên, kiểm tra số đó có là số nguyên tố hay không? Tính giai thừa của số đó");
         Random random = new Random();
-        int randomNumber = random.nextInt(3);
+        int randomNumber = random.nextInt(10);
         System.out.println("Random number = " + randomNumber);
 
         boolean isPrime = primeNumber.checkPrimeNumberWhileLoop(randomNumber);

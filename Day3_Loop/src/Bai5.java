@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Bai5 {
 
     void giaiBT5() {
-        System.out.println("Bài 5 - Viết chương trình in ra màn hình index của tất cả ký tự ‘o’ trong chuỗi: “You only live once, but if you do it right, once is enough”");
+        System.out.println("\n\nBài 5 - Viết chương trình in ra màn hình index của tất cả ký tự ‘o’ trong chuỗi: “You only live once, but if you do it right, once is enough”");
         String chars = "You only live once, but if you do it right, once is enough";
         getIndexOfCharForLoop(chars, 'o');
     }
