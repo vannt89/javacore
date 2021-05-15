@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class CheckTriangle {
 
     public void giaiBT7() {
+        System.out.println("\n\nBài 7 - Viết chương trình nhập vào 3 cạnh và kiểm tra có phải tam giác hay không, kiểm tra loại tam giác là gì?");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập cạnh a: ");
         double canha = scanner.nextDouble();

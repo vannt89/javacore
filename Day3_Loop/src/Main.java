@@ -11,49 +11,51 @@ public class Main {
         Bai5 bai5 = new Bai5();
         BangCuuChuong bangCuuChuong = new BangCuuChuong();
         CheckTriangle triangle = new CheckTriangle();
+        Bai8 bai8 = new Bai8();
+        Bai15 bai15 = new Bai15();
+        Utils.mainMenu();
 
-        System.out.println("Bài 1 - Viết chương trình liệt kê n số nguyên tố đầu tiên && các số nguyên tố nhỏ hơn 100");
-        System.out.println("Bài 2 - Viết chương trình liệt kê n số fibonacci đầu tiên && các số Fibonacci nhỏ hơn 100");
-        System.out.println("Bài 3 - Viết chương trình tính giai thừa, với n nhập vào từ bàn phím");
-        System.out.println("Bài 4 - Viết chương trình tạo một số ngẫu nhiên, kiểm tra số đó có là số nguyên tố hay không? Tính giai thừa của số đó");
-        System.out.println("Bài 5 - Viết chương trình in ra màn hình index của tất cả ký tự ‘o’ trong 1 chuỗi");
-        System.out.println("Bài 6 - Viết chương trình in ra bảng cửu chương");
-        System.out.println("Để thoát chương trình, nhập vào -1 nhé");
-
-        int number = -1;
+        int number = 0;
         do {
             System.out.print("\nBạn muốn giải bài tập số mấy?: ");
             number = scanner.nextInt();
-            if (number != -1) {
-                switch (number) {
-                    case 1:
-                        primeNumber.giaiBT1();
-                        break;
-                    case 2:
-                        fibonacci.giaiBT2();
-                        break;
-                    case 3:
-                        giaiThua.giaiBT3();
-                        break;
-                    case 4:
-                        bai4.giaiBT4();
-                        break;
-                    case 5:
-                        bai5.giaiBT5();
-                        break;
-                    case 6:
-                        bangCuuChuong.giaiBT6();
-                        break;
-                    case 7:
-                        triangle.giaiBT7();
-                        break;
-                    default:
-                        System.out.println("Không có bài tập này trong danh sách bài tập. Hãy chọn bài tập khác");
-                        System.out.println("Để thoát chương trình, nhập vào -1 nhé");
-                        break;
-                }
+            switch (number) {
+                case 0:
+                    System.out.print("Thank You! Have Fun!");
+                    System.exit(0);
+                    break;
+                case 1:
+                    primeNumber.giaiBT1();
+                    break;
+                case 2:
+                    fibonacci.giaiBT2();
+                    break;
+                case 3:
+                    giaiThua.giaiBT3();
+                    break;
+                case 4:
+                    bai4.giaiBT4();
+                    break;
+                case 5:
+                    bai5.giaiBT5();
+                    break;
+                case 6:
+                    bangCuuChuong.giaiBT6();
+                    break;
+                case 7:
+                    triangle.giaiBT7();
+                    break;
+                case 8:
+                    bai8.giaiBT8();
+                    break;
+                case 15:
+                    bai15.giaiBT15();
+                    break;
+                default:
+                    System.out.println("Không có bài tập này trong danh sách bài tập. Hãy chọn bài tập khác");
+                    System.out.println("Để thoát chương trình, nhập vào 0 nhé");
+                    break;
             }
-        } while (number >= 0);
-        System.out.print("Thank You! Have Fun!");
+        } while (number > 0);
     }
 }
