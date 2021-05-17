@@ -15,47 +15,50 @@ public class Main {
         Bai15 bai15 = new Bai15();
         Utils.mainMenu();
 
-        int number = 0;
+        int number = -1;
         do {
             System.out.print("\nBạn muốn giải bài tập số mấy?: ");
             number = scanner.nextInt();
-            switch (number) {
-                case 0:
-                    System.out.print("Thank You! Have Fun!");
-                    System.exit(0);
-                    break;
-                case 1:
-                    primeNumber.giaiBT1();
-                    break;
-                case 2:
-                    fibonacci.giaiBT2();
-                    break;
-                case 3:
-                    giaiThua.giaiBT3();
-                    break;
-                case 4:
-                    bai4.giaiBT4();
-                    break;
-                case 5:
-                    bai5.giaiBT5();
-                    break;
-                case 6:
-                    bangCuuChuong.giaiBT6();
-                    break;
-                case 7:
-                    triangle.giaiBT7();
-                    break;
-                case 8:
-                    bai8.giaiBT8();
-                    break;
-                case 15:
-                    bai15.giaiBT15();
-                    break;
-                default:
-                    System.out.println("Không có bài tập này trong danh sách bài tập. Hãy chọn bài tập khác");
-                    System.out.println("Để thoát chương trình, nhập vào 0 nhé");
-                    break;
+            if (number > -1) {
+                switch (number) {
+                    case 0:
+                        Utils.mainMenu();
+                        break;
+                    case 1:
+                        primeNumber.giaiBT1();
+                        break;
+                    case 2:
+                        fibonacci.giaiBT2();
+                        break;
+                    case 3:
+                        giaiThua.giaiBT3();
+                        break;
+                    case 4:
+                        bai4.giaiBT4();
+                        break;
+                    case 5:
+                        bai5.giaiBT5();
+                        break;
+                    case 6:
+                        bangCuuChuong.giaiBT6();
+                        break;
+                    case 7:
+                        triangle.giaiBT7();
+                        break;
+                    case 8:
+                        bai8.giaiBT8();
+                        break;
+                    case 15:
+                        bai15.giaiBT15();
+                        break;
+                    default:
+                        System.out.println("Không có bài tập này trong danh sách bài tập. Hãy chọn bài tập khác");
+                        System.out.println("Để xem menu, nhấn phím 0 nhé");
+                        System.out.println("Để thoát chương trình, nhập vào -1 nhé");
+                        break;
+                }
             }
-        } while (number > 0);
+        } while (number >= 0);
+        System.out.print("Thank You! Have Fun!");
     }
 }

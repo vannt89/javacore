@@ -9,7 +9,7 @@ public class Utils {
         System.out.println("Bài 6 - Viết chương trình in ra bảng cửu chương");
         System.out.println("Bài 7 - Viết chương trình nhập vào 3 cạnh và kiểm tra có phải tam giác hay không, kiểm tra loại tam giác là gì?");
         System.out.println("Bài 8 - Viết chương trình nhập vào một chuỗi và đếm số từ của chuỗi đó");
-        System.out.println("Để thoát chương trình, nhập vào 0 nhé");
+        System.out.println("Để thoát chương trình, nhập vào -1 nhé");
     }
 
     static void subMenu() {
