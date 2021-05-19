@@ -6,6 +6,7 @@ public class Bai2 {
     public static final String KITU_JAVA = "Java";
 
     public void giaiBT2() {
+        System.out.println("\n\n*** Bài tập số 2 ***");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào số phần tử của mảng: ");
         int size = Integer.valueOf(scanner.nextLine());
@@ -21,9 +22,8 @@ public class Bai2 {
         //Đếm số lần "Java" xuất hiện trong mảng
         countWords(strArr);
 
-        String str = "";
         System.out.println("Nhập vào chuỗi bất kì: ");
-        str = scanner.nextLine();
+        String str = scanner.nextLine();
         getIndexOfStr(strArr, str);
     }
 
