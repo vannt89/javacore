@@ -2,7 +2,7 @@ public class Bai15 {
     public static final char KITU_O = 'o';
 
     void giaiBT15() {
-        System.out.println("\n\nBài 15 - Viết chương trình đếm số lần ký tự ‘o’ xuất hiện trong chuỗi: “You only live once, but if you do it right, once is enough”");
+        System.out.println("\n\nBài 15 - Đếm số lần ký tự ‘o’ xuất hiện trong chuỗi: “You only live once, but if you do it right, once is enough”");
         String chars = "You only live once, but if you do it right, once is enough";
         countCharDoWhileLoop(chars);
     }

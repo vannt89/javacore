@@ -12,6 +12,7 @@ public class Main {
         BangCuuChuong bangCuuChuong = new BangCuuChuong();
         CheckTriangle triangle = new CheckTriangle();
         Bai8 bai8 = new Bai8();
+        Bai9 bai9 = new Bai9();
         Bai15 bai15 = new Bai15();
         Utils.mainMenu();
 
@@ -47,6 +48,9 @@ public class Main {
                         break;
                     case 8:
                         bai8.giaiBT8();
+                        break;
+                    case 9:
+                        bai9.giaiBT9();
                         break;
                     case 15:
                         bai15.giaiBT15();

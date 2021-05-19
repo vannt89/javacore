@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e54924-7283-44a9-a884-5eea4beae2ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_Loop/src/Bai9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day7_Array/Day7_Array.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day7_Array/src/ArrayInJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day7_Array/src/Bai1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day7_Array/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Loop/src/Bai15.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_Loop/src/Bai15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day3_Loop/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_Loop/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day3_Loop/src/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_Loop/src/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day3_Loop/Bai15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day3_Loop/Bai15.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Day3_Loop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day3_Loop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day3_Loop/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day3_Loop/Utils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,31 +53,24 @@
       <recent name="$PROJECT_DIR$/Day1/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Bai15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai15" />
-      <module name="Day3_Loop" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ArrayInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayInJava" />
+      <module name="Day7_Array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai5" />
-      <module name="Day3_Loop" />
+    <configuration name="ArrayInJava1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayInJava1" />
+      <module name="Day7_Array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai8" />
-      <module name="Day3_Loop" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BangCuuChuong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BangCuuChuong" />
-      <module name="Day3_Loop" />
+    <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai1" />
+      <module name="Day7_Array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,13 +82,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Day7_Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Bai1" />
+        <item itemvalue="Application.ArrayInJava1" />
+        <item itemvalue="Application.ArrayInJava" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Bai15" />
-        <item itemvalue="Application.Bai8" />
-        <item itemvalue="Application.BangCuuChuong" />
-        <item itemvalue="Application.Bai5" />
       </list>
     </recent_temporary>
   </component>
@@ -103,66 +113,70 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1621171417098">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="970" height="248" key="GridCell.Tab.0.bottom" timestamp="1621396549526">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1621171417098" />
-    <state width="754" height="200" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1620954829361" />
-    <state width="754" height="200" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1620955021638" />
-    <state width="889" height="200" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1620923969386" />
-    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1621171417097">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1621387883208" />
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1621387746292" />
+    <state width="970" height="248" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1621396168508" />
+    <state width="970" height="248" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1621396549526" />
+    <state width="970" height="248" key="GridCell.Tab.0.center" timestamp="1621396549523">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1621171417097" />
-    <state width="754" height="200" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1620954829360" />
-    <state width="754" height="200" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1620955021637" />
-    <state width="889" height="200" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1620923969386" />
-    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1621171417097">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1398" height="248" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1621387883207" />
+    <state width="1398" height="248" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1621387746290" />
+    <state width="970" height="248" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1621396168508" />
+    <state width="970" height="248" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1621396549523" />
+    <state width="970" height="248" key="GridCell.Tab.0.left" timestamp="1621396549518">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1621171417097" />
-    <state width="754" height="200" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1620954829360" />
-    <state width="754" height="200" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1620955021637" />
-    <state width="889" height="200" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1620923969385" />
-    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1621171417097">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1398" height="248" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1621387883207" />
+    <state width="1398" height="248" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1621387746290" />
+    <state width="970" height="248" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1621396168507" />
+    <state width="970" height="248" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1621396549518" />
+    <state width="970" height="248" key="GridCell.Tab.0.right" timestamp="1621396549524">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1621171417097" />
-    <state width="754" height="200" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1620954829360" />
-    <state width="754" height="200" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1620955021638" />
-    <state width="889" height="200" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1620923969386" />
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1621171417098">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1398" height="248" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1621387883208" />
+    <state width="1398" height="248" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1621387746291" />
+    <state width="970" height="248" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1621396168508" />
+    <state width="970" height="248" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1621396549524" />
+    <state width="970" height="264" key="GridCell.Tab.1.bottom" timestamp="1621394997675">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.824@0.23.1440.824" timestamp="1621171417098" />
+    <state width="822" height="264" key="GridCell.Tab.1.bottom/0.23.1440.824@0.23.1440.824" timestamp="1621250554599" />
     <state width="754" height="264" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1620954742529" />
-    <state width="754" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1620954987874" />
-    <state width="889" height="264" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1620923385480" />
-    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1621171417098">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1621351714952" />
+    <state width="970" height="264" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1621394997675" />
+    <state width="970" height="264" key="GridCell.Tab.1.center" timestamp="1621394997674">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.824@0.23.1440.824" timestamp="1621171417098" />
+    <state width="822" height="264" key="GridCell.Tab.1.center/0.23.1440.824@0.23.1440.824" timestamp="1621250554599" />
     <state width="754" height="264" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1620954742528" />
-    <state width="754" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1620954987874" />
-    <state width="889" height="264" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1620923385479" />
-    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1621171417098">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1621351714952" />
+    <state width="970" height="264" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1621394997674" />
+    <state width="970" height="264" key="GridCell.Tab.1.left" timestamp="1621394997673">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.824@0.23.1440.824" timestamp="1621171417098" />
+    <state width="822" height="264" key="GridCell.Tab.1.left/0.23.1440.824@0.23.1440.824" timestamp="1621250554599" />
     <state width="754" height="264" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1620954742528" />
-    <state width="754" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1620954987874" />
-    <state width="889" height="264" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1620923385479" />
-    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1621171417098">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1621351714951" />
+    <state width="970" height="264" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1621394997673" />
+    <state width="970" height="264" key="GridCell.Tab.1.right" timestamp="1621394997674">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.824@0.23.1440.824" timestamp="1621171417098" />
+    <state width="822" height="264" key="GridCell.Tab.1.right/0.23.1440.824@0.23.1440.824" timestamp="1621250554599" />
     <state width="754" height="264" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1620954742529" />
-    <state width="754" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1620954987874" />
-    <state width="889" height="264" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1620923385480" />
-    <state x="97" y="57" key="new project wizard" timestamp="1620869106724">
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1621351714952" />
+    <state width="970" height="264" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1621394997674" />
+    <state x="378" y="192" width="683" height="486" key="find.popup" timestamp="1621304204836">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state x="97" y="57" key="new project wizard/0.23.1440.824@0.23.1440.824" timestamp="1620869106724" />
+    <state x="378" y="192" width="683" height="486" key="find.popup/0.23.1440.824@0.23.1440.824" timestamp="1621304204836" />
+    <state x="97" y="57" key="new project wizard" timestamp="1621301405637">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state x="97" y="57" key="new project wizard/0.23.1440.824@0.23.1440.824" timestamp="1621301405637" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -186,6 +200,26 @@
           <url>file://$PROJECT_DIR$/Day3_Loop/src/Bai15.java</url>
           <line>17</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Day3_Loop/src/Bai9.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Day7_Array/src/ArrayInJava.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Day7_Array/src/ArrayInJava.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Day7_Array/src/Bai1.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

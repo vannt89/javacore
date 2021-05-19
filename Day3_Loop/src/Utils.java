@@ -7,8 +7,10 @@ public class Utils {
         System.out.println("Bài 4 - Viết chương trình tạo một số ngẫu nhiên, kiểm tra số đó có là số nguyên tố hay không? Tính giai thừa của số đó");
         System.out.println("Bài 5 - Viết chương trình in ra màn hình index của tất cả ký tự ‘o’ trong 1 chuỗi");
         System.out.println("Bài 6 - Viết chương trình in ra bảng cửu chương");
-        System.out.println("Bài 7 - Viết chương trình nhập vào 3 cạnh và kiểm tra có phải tam giác hay không, kiểm tra loại tam giác là gì?");
+        System.out.println("Bài 7 - Nhập vào 3 cạnh và kiểm tra có phải tam giác hay không, kiểm tra loại tam giác là gì?");
         System.out.println("Bài 8 - Viết chương trình nhập vào một chuỗi và đếm số từ của chuỗi đó");
+        System.out.println("Bài 9 - Nhập vào 1 chuỗi từ bàn phím và loại bỏ dấu cách thừa, chuyển kí tự đầu mỗi từ thành chữ hoa, các kí tự khác thành chữ thường");
+        System.out.println("Bài 15 - Đếm số lần ký tự ‘o’ xuất hiện trong chuỗi: “You only live once, but if you do it right, once is enough”");
         System.out.println("Để thoát chương trình, nhập vào -1 nhé");
     }
 
