@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Bai1 {
 
     public void giaiBT1() {
-        System.out.println("\n*** Bài tập số 1 ***");
+        System.out.println("\n*** Bài 1 - Tìm phần tử lớn nhất, lớn thứ 2, nhỏ nhất, và index của chúng***");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào số phần tử của mảng: ");
         int size = scanner.nextInt();

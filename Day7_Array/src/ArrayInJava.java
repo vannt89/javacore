@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayInJava {
@@ -106,4 +107,47 @@ public class ArrayInJava {
         }
     }
 
+    public void sortForLoop() {
+        int[] my_array = {6, 7, 3, 3, 4, 5};
+        for (int i = 0; i < my_array.length; ) {
+            // Nếu số trước nhỏ hơn số sau thì đổi vị trí, và duyệt lại từ đầu
+            if (my_array[i] > my_array[i + 1]) {
+                int temp = my_array[i + 1];
+                my_array[i + 1] = my_array[i];
+                my_array[i] = temp;
+                i = 0; //duyệt lại
+            } else {
+                // Nếu vị trí của i gần cuối thì break, ko loop nữa.
+                if (i >= my_array.length - 2)
+                    break;
+                else
+                    i++;
+            }
+        }
+        System.out.printf("Mảng sau khi sắp xếp my_array[] : %s", Arrays.toString(my_array));
+    }
+
+    public void sortWhileLoop() {
+        int[] my_array = {6, 7, 3, 3, 4, 5, 3};
+
+        int i = 0;
+        while (true) {
+            // Nếu số trước nhỏ hơn số sau thì đổi vị trí, và duyệt lại từ đầu
+            if (my_array[i] > my_array[i + 1]) {
+                int temp = my_array[i + 1];
+                my_array[i + 1] = my_array[i];
+                my_array[i] = temp;
+                i = 0; //duyệt lại
+            } else {
+                // Nếu vị trí của i gần cuối thì break, ko loop nữa.
+                if (i >= my_array.length - 2) {
+                    break;
+                } else {
+                    i++;
+                }
+            }
+        }
+        //In kết quả
+        System.out.printf("Mảng sau khi sắp xếp my_array[] : %s", Arrays.toString(my_array));
+    }
 }

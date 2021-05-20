@@ -6,7 +6,7 @@ public class Bai2 {
     public static final String KITU_JAVA = "Java";
 
     public void giaiBT2() {
-        System.out.println("\n\n*** Bài tập số 2 ***");
+        System.out.println("\n\n*** Bài 2 - Đếm số lần chuỗi Java xuất hiện trong mảng và kiểm tra chuỗi bất kì có thuộc mảng ko ***");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào số phần tử của mảng: ");
         int size = Integer.valueOf(scanner.nextLine());
@@ -37,7 +37,7 @@ public class Bai2 {
             }
         }
         if (isExit) {
-            System.out.println("Chuỗi " + str + " có index thứ " + index + " trong mảng " + Arrays.toString(strArr));
+            System.out.println("Chuỗi " + str + " có index là: " + index + " trong mảng " + Arrays.toString(strArr));
         } else {
             System.out.println("Chuỗi " + str + " không tồn tại trong mảng " + Arrays.toString(strArr));
         }
