@@ -51,10 +51,10 @@ public class B1_MaTran {
 
         // hiển thị 2 ma trận vừa nhập
         System.out.println("Ma trận A: ");
-        showMaTran(A, m1, n1);
+        Common.showArr(A, m1, n1);
 
         System.out.println("Ma trận B: ");
-        showMaTran(B, m2, n2);
+        Common.showArr(B, m2, n2);
 
         // tính và in ra ma trận C = A + B
         for (int i = 0; i < m1; i++) {
@@ -65,7 +65,7 @@ public class B1_MaTran {
 
         // hiển thị ma trận C
         System.out.println("Ma trận C: ");
-        showMaTran(C, m1, n2);
+        Common.showArr(C, m1, n2);
 
         // tìm ma trận D là ma trận chuyển vị của ma trận C
         // ma trận D là ma trận chuyển vị của ma trận C
@@ -82,17 +82,8 @@ public class B1_MaTran {
 
         // hiển thị ma trận D
         System.out.println("Ma trận chuyển vị của ma trận C là: ");
-        showMaTran(D, n2, m1);
+        Common.showArr(D, n2, m1);
 
-    }
-
-    static void showMaTran(int[][] maTran, int dong, int cot) {
-        for (int i = 0; i < dong; i++) {
-            for (int j = 0; j < cot; j++) {
-                System.out.print(maTran[i][j] + "\t");
-            }
-            System.out.println();
-        }
     }
 
 }

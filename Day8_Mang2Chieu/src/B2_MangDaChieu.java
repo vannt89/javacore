@@ -28,7 +28,7 @@ public class B2_MangDaChieu {
 
         // hiển thị mảng vừa nhập
         System.out.println("Hiển thị mảng vừa nhập: ");
-        showArr(arr, line, column);
+        Common.showArr(arr, line, column);
 
         int sum = 0;
         for (int i = 0; i < line; i++) {
@@ -41,13 +41,6 @@ public class B2_MangDaChieu {
         System.out.println("Sum = " + sum);
     }
 
-    static void showArr(int[][] arr, int dong, int cot) {
-        for (int i = 0; i < dong; i++) {
-            for (int j = 0; j < cot; j++) {
-                System.out.print(arr[i][j] + "\t");
-            }
-            System.out.println();
-        }
-    }
+
 
 }
