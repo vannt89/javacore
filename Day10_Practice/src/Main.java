@@ -7,6 +7,9 @@ public class Main {
 
         BTVN2 btvn2 = new BTVN2();
         btvn2.giaiBTVN2();
+
+        BTVN3 btvn3 = new BTVN3();
+        btvn3.giaiBTVN3();
     }
 
 

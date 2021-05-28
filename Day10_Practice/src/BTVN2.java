@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class BTVN2 {
@@ -7,6 +6,7 @@ public class BTVN2 {
      * Loại bỏ các kí tự giống nhau trong chuỗi
      */
     public void giaiBTVN2() {
+        System.out.println("BTVN2 - Loại bỏ các kí tự giống nhau trong chuỗi");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter input: ");
         String input = scanner.nextLine();
