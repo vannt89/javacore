@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/JUnit5/pom.xml" />
+        <option value="$PROJECT_DIR$/JUnit5_AssertJ/pom.xml" />
+        <option value="$PROJECT_DIR$/JUnit5_Assert/pom.xml" />
       </list>
     </option>
   </component>
