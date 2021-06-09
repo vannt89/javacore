@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JUnit5_Assert" />
         <module name="JUnit5_AssertJ" />
+        <module name="Day13_StringBuilder" />
+        <module name="JUnit5_Assert" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Day13_StringBuilder" target="8" />
       <module name="JUnit5_Assert" target="8" />
       <module name="JUnit5_Assertion" target="8" />
       <module name="JUnit5_AssertJ" target="8" />
