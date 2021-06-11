@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class BTVN2 {
 
     /*
@@ -6,8 +8,11 @@ public class BTVN2 {
      * Định dạng mã số sinh viên là “NVxxxxxxx” với x là số nguyên từ 1-9. (Gợi ý, sử dụng regex)
      */
 
-    public boolean giaiBTVN2(String input) {
+    public String giaiBTVN2(String input) {
         String regex = "NV\\d{7}";
-        return input.matches(regex);
+        if (!input.matches(regex)) {
+            return "Mã nhân viên không hợp lệ";
+        }
+        return input;
     }
 }

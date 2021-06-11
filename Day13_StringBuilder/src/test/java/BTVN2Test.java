@@ -9,11 +9,10 @@ class BTVN2Test {
     @Test
     @DisplayName("giaiBTVN2")
     void giaiBTVN2() {
-        assertThat(btvn2.giaiBTVN2("NV3581645")).isTrue();
-        assertThat(btvn2.giaiBTVN2("HH1234567")).isFalse();
-        assertTrue(btvn2.giaiBTVN2("NV3581645"));
-        assertFalse(btvn2.giaiBTVN2("HH1234567"));
-        assertFalse(btvn2.giaiBTVN2("NV12345"));
+        assertThat(btvn2.giaiBTVN2("NV3581645")).isNotNull().hasSize(9).startsWith("NV").containsPattern("\\d{7}");
+        assertEquals(btvn2.giaiBTVN2("NV35816"), "Mã nhân viên không hợp lệ");
+        assertEquals(btvn2.giaiBTVN2("NN3581645"), "Mã nhân viên không hợp lệ");
+        assertEquals(btvn2.giaiBTVN2("NV"), "Mã nhân viên không hợp lệ");
     }
 
     ///////So sánh String và StringBuilder
