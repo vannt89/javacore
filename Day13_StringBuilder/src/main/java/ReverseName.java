@@ -4,12 +4,11 @@ public class ReverseName {
         StringBuilder strReverse = new StringBuilder();
         name = name.trim();
         String[] array = name.split("\\s");
-        for (int j = array.length; j >= 0; j--) {
-            strReverse.append(array[j]);
+        for (int i = array.length - 1; i >= 0; i--) {
+            strReverse.append(array[i]);
             strReverse.append(' ');
 
         }
         return strReverse.toString().trim();
     }
-
 }

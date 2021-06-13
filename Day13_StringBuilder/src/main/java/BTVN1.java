@@ -27,15 +27,16 @@ public class BTVN1 {
         String output = "";
         if (!checkIfContainDigits(input)) {
             output = capsFirstLetter(input);
+            System.out.print("-> Output: " + output + "\n");
         }
-        System.out.print("\t-> Output: " + output + "\n");
+
         return output;
     }
 
     public boolean checkIfContainDigits(String str) {
         for (int i = 0; i < str.length(); i++) {
             if (Character.isDigit(str.charAt(i))) {
-                System.out.println("\t-> Error: Tên ko dc chứa chữ số");
+                System.out.println("-> Error: Tên ko dc chứa chữ số");
                 return true;
             }
         }
@@ -47,16 +48,9 @@ public class BTVN1 {
         String[] strArr = input.trim().split("\\s+");
         if (strArr.length >= 2) {
             for (String str : strArr) {
-                char[] chars = str.toCharArray();
-                for (int i = 0; i < chars.length; i++) {
-                    if (i == 0) {
-                        chars[0] = Character.toUpperCase(chars[0]);
-                    } else {
-                        chars[i] = Character.toLowerCase(chars[i]);
-                    }
-                }
-                str = new String(chars);
-                output.append(str).append(" ");
+                String firstChar = String.valueOf(str.charAt(0));
+                output.append(firstChar.toUpperCase() + str.substring(1).toLowerCase());
+                output.append(" ");
             }
         } else {
             System.out.println("Hãy nhập đầy đủ họ và tên");

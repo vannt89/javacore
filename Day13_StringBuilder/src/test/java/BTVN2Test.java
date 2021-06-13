@@ -16,7 +16,6 @@ class BTVN2Test {
     }
 
     ///////So sánh String và StringBuilder
-    ////Các đối tượng của String là bất biến và các đối tượng của StringBuffer và StringBuilder là có thể thay đổi.
     ////String đại diện cho 1 chuỗi bất biến, còn StringBuilder thì đại diện cho 1 chuỗi có thể thay đổi
     ////Với chuỗi dài và có sự thay đổi nhiều thì nên dùng StringBuilder
 }
