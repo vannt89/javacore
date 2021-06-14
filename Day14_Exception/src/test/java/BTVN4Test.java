@@ -8,7 +8,8 @@ class BTVN4Test {
 
     @Test
     void giaiBTVN4() {
-        assertThat(btvn4.giaiBTVN4().toString()).isNotNull().isEqualTo("[BMW, Hyundai, Mercedes, Toyota, Vinfast]");
+        String[] output = {"BMW", "Hyundai", "Mercedes", "Toyota", "Vinfast"};
+        assertThat(btvn4.giaiBTVN4()).isNotNull().isEqualTo(output);
     }
 
 }

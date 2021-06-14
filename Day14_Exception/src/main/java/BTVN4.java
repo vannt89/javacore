@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class BTVN4 {
 
@@ -8,9 +6,21 @@ public class BTVN4 {
      * sắp xếp mảng đó theo thứ tự alphabet (tham khảo phương thức compareTo)
      * Viết các TC để kiểm thử mảng đó
      */
-    public List<String> giaiBTVN4() {
-        List<String> list = new ArrayList<>();
+    public String[] giaiBTVN4() {
         String arr[] = {"Vinfast", "Toyota", "Hyundai", "Mercedes", "BMW"};
+        sortAlphabet(arr);
+        printArr(arr);
+        return arr;
+    }
+
+    public void printArr(String arr[]) {
+        System.out.print("\nMảng sau khi sắp xếp là: ");
+        for (int i = 0; i <= arr.length - 1; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+
+    public void sortAlphabet(String arr[]) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i].compareTo(arr[j]) > 0) {
@@ -20,11 +30,5 @@ public class BTVN4 {
                 }
             }
         }
-        System.out.print("\nMảng sau khi sắp xếp là: ");
-        for (int i = 0; i <= arr.length - 1; i++) {
-            list.add(arr[i]);
-        }
-        System.out.println(list);
-        return list;
     }
 }
