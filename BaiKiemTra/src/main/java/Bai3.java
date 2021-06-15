@@ -21,6 +21,24 @@ public class Bai3 {
         bai3.showDatesOfMonth(number);
     }
 
+    public int inputNumber() throws InputNumberException {
+        Scanner sc = new Scanner(System.in);
+        int number = 0;
+        boolean flag = false;
+        while (!flag) {
+            try {
+                System.out.println("Nhập một số: ");
+                number = Integer.valueOf(sc.nextLine());
+                if (number <= 0 || number > 12) throw new InputNumberException("Số cần trong khoảng 1-> 12");
+                flag = true;
+            } catch (NumberFormatException e) {
+                System.out.println("Hãy nhập vào 1 số. Nhập lại nhé");
+                flag = false;
+            }
+        }
+        return number;
+    }
+
     public void showDatesOfMonth(int month) {
         switch (month) {
             case 1:
@@ -41,20 +59,7 @@ public class Bai3 {
                 System.out.println("Tháng " + month + " có 30 ngày");
                 break;
             default:
-                System.out.println("Nhập tháng sai rồi. Hãy nhập tháng trong phạm vi từ 1-12");
                 break;
         }
-    }
-
-    public int inputNumber() throws InputNumberException {
-        int number = 0;
-        try {
-            System.out.println("Nhập vào 1 số: ");
-            number = Integer.parseInt(scanner.nextLine());
-            if (number <= 0) throw new InputNumberException("Cần nhập số lớn hơn 0");
-        } catch (NumberFormatException ex) {
-            System.out.println("Hãy nhập vào 1 số" + ex.toString());
-        }
-        return number;
     }
 }
