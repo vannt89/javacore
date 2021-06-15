@@ -7,13 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JUnit5_Assert" />
-        <module name="JUnit5_AssertJ" />
-        <module name="Day13_StringBuilder" />
-        <module name="Day14_Exception" />
         <module name="Day15_Collections" />
+        <module name="Day13_StringBuilder" />
+        <module name="BaiKiemTra" />
+        <module name="Day14_Exception" />
+        <module name="JUnit5_AssertJ" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BaiKiemTra" target="8" />
       <module name="Day13_StringBuilder" target="8" />
       <module name="Day14_Exception" target="8" />
       <module name="Day15_Collections" target="1.5" />
