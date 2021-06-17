@@ -40,6 +40,7 @@ public class EmployeesMain {
             System.out.println("Không có nhân viên này");
         }
 
+        /////Delete product
         System.out.println("\nNhập mã nhân viên muốn tìm kiếm: ");
         String name3 = scanner.nextLine();
         emp.removeEmployeeC1(name3);

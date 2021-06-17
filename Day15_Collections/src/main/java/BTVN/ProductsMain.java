@@ -24,6 +24,7 @@ public class ProductsMain {
         String name2 = "SP3";
         System.out.println("\nTìm kiếm sản phẩm: " + name1);
         pro.searchProductByName(name1);
+
         System.out.println("\nTìm kiếm sản phẩm: " + name2);
         pro.searchProductByName(name2);
 
