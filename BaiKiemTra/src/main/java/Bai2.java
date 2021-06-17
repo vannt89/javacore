@@ -61,7 +61,7 @@ public class Bai2 {
                 || password.contains(")") || password.contains("-")
                 || password.contains("+") || password.contains("/")
                 || password.contains(":") || password.contains(".")
-                || password.contains(", ") || password.contains("<")
+                || password.contains(",") || password.contains("<")
                 || password.contains(">") || password.contains("?")
                 || password.contains("|"))) {
             return true;

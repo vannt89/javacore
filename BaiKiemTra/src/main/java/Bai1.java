@@ -40,21 +40,31 @@ public class Bai1 {
         return output.toString().trim();
     }
 
+    public String capsFirstLetter(String input) {
+        StringBuilder output = new StringBuilder();
+        String[] strArr = input.trim().split("\\.");
+        for (String str : strArr) {
+            str = str.trim();
+            String firstChar = String.valueOf(str.charAt(0));
+            output.append(firstChar.toUpperCase() + str.substring(1).toLowerCase());
+            output.append(". ");
+        }
+        System.out.println(output.toString().trim());
+        return output.toString().trim();
+    }
+
     public String capsFirstLetter2(String input) {
         int pos = 0;
-        boolean capitalize = false;
+        boolean capitalize = true;
         StringBuilder sb = new StringBuilder(input);
         while (pos < sb.length()) {
-            if (!Character.isWhitespace(sb.charAt(pos)) && capitalize) {
+            if (sb.charAt(pos) == '.') {
+                capitalize = true;
+            } else if (capitalize && !Character.isWhitespace(sb.charAt(pos))) {
                 sb.setCharAt(pos, Character.toUpperCase(sb.charAt(pos)));
                 capitalize = false;
             } else {
                 sb.setCharAt(pos, Character.toLowerCase(sb.charAt(pos)));
-            }
-            if (pos == 0)
-                sb.setCharAt(pos, Character.toUpperCase(sb.charAt(pos)));
-            if (sb.charAt(pos) == '.') {
-                capitalize = true;
             }
             pos++;
         }

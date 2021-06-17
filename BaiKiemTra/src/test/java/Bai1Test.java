@@ -20,7 +20,8 @@ class Bai1Test {
 
     @Test
     void testCapsFirstLetter2() {
-        String input = "You Only Live Once. But if You do it right. once is Enough";
+        String input = "you Only Live Once. But if You do it right. once is Enough";
         assertThat(bai1.capsFirstLetter2(input)).isNotNull().isEqualTo("You only live once. But if you do it right. Once is enough");
+//        assertThat(bai1.capsFirstLetter(input)).isNotNull().contains("You only live once. But if you do it right. Once is enough");
     }
 }
