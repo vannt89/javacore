@@ -18,13 +18,13 @@ public class EmployeesManagement {
         listEmp.add(employees);
     }
 
-    public boolean updateEmployeeC1(String name, Employees employees) {
+    public boolean updateEmployeeC1(String name) {
         boolean isExist = false;
         for (int i = 0; i < listEmp.size(); i++) {
             if (listEmp.get(i).getEmpName().equals(name)) {
                 isExist = true;
                 System.out.println("Thông tin nhân viên tìm kiếm: " + listEmp.get(i));
-                listEmp.set(i, employees);
+                listEmp.set(i, new Employees(listEmp.get(i).getEmpID(), "Thuy", 29, "TP HCM", "123456789"));
 
                 System.out.println("\nDanh sách nhân viên sau khi thay đổi là: ");
                 printEmployee();

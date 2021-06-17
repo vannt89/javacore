@@ -29,7 +29,7 @@ public class EmployeesMain {
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nNhập tên nhân viên muốn tìm kiếm: ");
         String name1 = scanner.nextLine();
-        if (!emp.updateEmployeeC1(name1, new Employees("NV5", "Thuy", 29, "Ha Giang", "0123456789"))) {
+        if (!emp.updateEmployeeC1(name1)) {
             System.out.println("Không có nhân viên này");
         }
 
