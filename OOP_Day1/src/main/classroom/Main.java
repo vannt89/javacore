@@ -1,5 +1,6 @@
 package main.classroom;
 
+import main.classroom.GiangVien.GVFullTime;
 import main.classroom.LopHoc.Classroom;
 import main.classroom.SinhVien.Student;
 import main.classroom.SinhVien.StudentStatus;
@@ -27,13 +28,16 @@ public class Main {
         Classroom class5 = new Classroom("CK2", "Co khi", 2020);
         Classroom class6 = new Classroom("CK3", "Co khi", 2021);
 
-        Student s1 = new Student(1, "Van", 28, "Female", class1.getName(), StudentStatus.DA_RA_TRUONG);
-        Student s2 = new Student(2, "Thuy", 20, "Female", class2.getName(), StudentStatus.DANG_HOC);
-        Student s3 = new Student(3, "Phong", 18, "Male", class3.getName(), StudentStatus.CHUAN_BI_NHAP_HOC);
+        GVFullTime gv1 = new GVFullTime(1, "GV1", 35, "Female", "GV1", "CNTT1");
+        GVFullTime gv2 = new GVFullTime(2, "GV2", 40, "Male", "GV2", "CK1");
 
-        Student s4 = new Student(4, "Nhien", 27, "Female", class4.getName(), StudentStatus.DA_RA_TRUONG);
-        Student s5 = new Student(5, "Hong", 20, "Female", class5.getName(), StudentStatus.DANG_HOC);
-        Student s6 = new Student(6, "Nam", 18, "Male", class6.getName(), StudentStatus.CHUAN_BI_NHAP_HOC);
+        Student s1 = new Student(1, "Van", 28, "Female", class1.getName(), StudentStatus.DA_RA_TRUONG, gv1.getMaNV());
+        Student s2 = new Student(2, "Thuy", 20, "Female", class2.getName(), StudentStatus.DANG_HOC, gv1.getMaNV());
+        Student s3 = new Student(3, "Phong", 18, "Male", class3.getName(), StudentStatus.CHUAN_BI_NHAP_HOC, gv1.getMaNV());
+
+        Student s4 = new Student(4, "Nhien", 27, "Female", class4.getName(), StudentStatus.DA_RA_TRUONG, gv2.getMaNV());
+        Student s5 = new Student(5, "Hong", 20, "Female", class5.getName(), StudentStatus.DANG_HOC, gv2.getMaNV());
+        Student s6 = new Student(6, "Nam", 18, "Male", class6.getName(), StudentStatus.CHUAN_BI_NHAP_HOC, gv2.getMaNV());
 
         ArrayList<Student> students = new ArrayList<>();
         students.add(s1);
@@ -41,6 +45,7 @@ public class Main {
         students.add(s3);
         students.add(s4);
         students.add(s5);
+        students.add(s6);
 
         for (Student student : students) {
             System.out.println(student);

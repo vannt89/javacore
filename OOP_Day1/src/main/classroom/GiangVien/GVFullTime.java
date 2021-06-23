@@ -37,4 +37,20 @@ public class GVFullTime extends Person implements ITeacher, IStaff {
                 ", lopChuNhiem='" + lopChuNhiem + '\'' +
                 ']';
     }
+
+    public String getMaNV() {
+        return maNV;
+    }
+
+    public void setMaNV(String maNV) {
+        this.maNV = maNV;
+    }
+
+    public String getLopChuNhiem() {
+        return lopChuNhiem;
+    }
+
+    public void setLopChuNhiem(String lopChuNhiem) {
+        this.lopChuNhiem = lopChuNhiem;
+    }
 }

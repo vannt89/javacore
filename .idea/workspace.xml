@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e54924-7283-44a9-a884-5eea4beae2ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/OOP_Day1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/GiangVien/CongTacVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/GiangVien/GVFullTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/GiangVien/ThinhGiang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/Interface/IStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/Interface/IStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/Interface/ITeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/LopHoc/Classroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/NhanVien/BaoVe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/NhanVien/KeToan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/NhanVien/QuetDon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/NhanVien/TuyenSinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/SinhVien/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/SinhVien/StudentStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/GiangVien/GVFullTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/GiangVien/GVFullTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/SinhVien/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Day1/src/main/classroom/SinhVien/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,10 +153,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="372" y="95" key="#MainTest/0.23.1440.822@0.23.1440.822" timestamp="1622988403941" />
-    <state x="753" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1624456601032">
+    <state x="753" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1624458001197">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="753" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.822@0.23.1440.822" timestamp="1624456601032" />
+    <state x="753" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.822@0.23.1440.822" timestamp="1624458001197" />
     <state x="187" y="366" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1624451396818">
       <screen x="0" y="23" width="1440" height="822" />
     </state>

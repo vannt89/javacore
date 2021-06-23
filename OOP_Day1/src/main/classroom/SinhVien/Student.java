@@ -7,11 +7,13 @@ public class Student extends Person implements IStudent {
 
     private String currentClassroom;
     private StudentStatus studentStatus;
+    private String gVChuNhiem;
 
-    public Student(int id, String name, int age, String gender, String currentClassroom, StudentStatus studentStatus) {
+    public Student(int id, String name, int age, String gender, String currentClassroom, StudentStatus studentStatus, String gVChuNhiem) {
         super(id, name, age, gender);
         this.currentClassroom = currentClassroom;
         this.studentStatus = studentStatus;
+        this.gVChuNhiem = gVChuNhiem;
     }
 
     @Override
@@ -33,7 +35,8 @@ public class Student extends Person implements IStudent {
     public String toString() {
         return "Student[" +
                 "currentClassroom='" + currentClassroom + '\'' +
-                ", studentStatus=" + studentStatus +
+                ", studentStatus=" + studentStatus + '\'' +
+                ", gVChuNhiem=" + gVChuNhiem +
                 ']';
     }
 }
