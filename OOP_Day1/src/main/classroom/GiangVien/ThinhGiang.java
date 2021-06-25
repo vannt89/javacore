@@ -26,4 +26,8 @@ public class ThinhGiang extends Person implements ITeacher, IStaff {
     public void nhanCheDo() {
         System.out.println("Thỉnh giảng có chế độ 3 - ít nhất");
     }
+
+    public void kinhDoanh() {
+        System.out.println("Ngoài dạy học ra tôi làm kinh doanh là chính");
+    }
 }

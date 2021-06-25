@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/Day9_Practice/Day9_Practice.iml" filepath="$PROJECT_DIR$/Day9_Practice/Day9_Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/JUnit5_Assert/JUnit5_Assert.iml" filepath="$PROJECT_DIR$/JUnit5_Assert/JUnit5_Assert.iml" />
       <module fileurl="file://$PROJECT_DIR$/JUnit5_AssertJ/JUnit5_AssertJ.iml" filepath="$PROJECT_DIR$/JUnit5_AssertJ/JUnit5_AssertJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaCollections_Day2/JavaCollections_Day2.iml" filepath="$PROJECT_DIR$/JavaCollections_Day2/JavaCollections_Day2.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP_Day1/OOP_Day1.iml" filepath="$PROJECT_DIR$/OOP_Day1/OOP_Day1.iml" />
       <module fileurl="file://$PROJECT_DIR$/vannt_javacore.iml" filepath="$PROJECT_DIR$/vannt_javacore.iml" />
     </modules>

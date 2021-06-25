@@ -27,4 +27,8 @@ public class CongTacVien extends Person implements ITeacher, IStaff {
     public void nhanCheDo() {
         System.out.println("Cộng tác viên có chế độ 2 - bình thường");
     }
+
+    public void lamThemBuoiChieu() {
+        System.out.println("Tôi làm giáo viên CTV buổi sáng thôi, buổi chiều tôi làm thêm cái khác");
+    }
 }
