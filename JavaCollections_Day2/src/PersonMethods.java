@@ -31,12 +31,12 @@ public class PersonMethods {
         Map<String, List<Integer>> map = new HashMap<>();
         for (Person p : persons) {
             String key = p.getNationality();
+            List<Integer> ages = new ArrayList<>();
             if (!map.containsKey(key)) {
-                List<Integer> ages = new ArrayList<>();
                 ages.add(p.getAge());
                 map.put(key, ages);
             } else {
-                List<Integer> ages = map.get(key);
+                ages = map.get(key);
                 ages.add(p.getAge());
             }
         }
