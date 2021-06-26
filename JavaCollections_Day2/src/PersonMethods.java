@@ -87,10 +87,9 @@ public class PersonMethods {
         return avg;
     }
 
-
     private void printMap(Map<String, Integer> map) {
-        for (String key : map.keySet()) {
-            System.out.println(key + " - " + map.get(key));
+        for (Map.Entry entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " - " + entry.getValue());
         }
     }
 
@@ -101,8 +100,6 @@ public class PersonMethods {
     }
 
     private void printMap3(Map<Person, String> map) {
-        for (Person key : map.keySet()) {
-            System.out.println(key + " - " + map.get(key));
-        }
+        map.forEach((key, value) -> System.out.println(key + " - " + value));
     }
 }
