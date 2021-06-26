@@ -25,7 +25,13 @@ public class PersonMethods {
                 sortedList.add(p);
             }
         }
-        sortedList.stream().sorted(Comparator.comparing(Person::getName)).forEach(System.out::println);
+        sortedList.sort(Comparator.comparing(Person::getName)
+                .thenComparing(Person::getAge));
+        for (Person p : sortedList) {
+            System.out.println(p);
+        }
+        ////C2 Java Stream
+//        sortedList.stream().sorted(Comparator.comparing(Person::getName)).forEach(System.out::println);
     }
 
     public void calAverageAgeByNationality(List<Person> persons) {
