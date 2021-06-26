@@ -29,18 +29,7 @@ public class PersonMethods {
     }
 
     public void calAverageAgeByNationality(List<Person> persons) {
-        Map<String, List<Integer>> map = new HashMap<>();
-        for (Person p : persons) {
-            String key = p.getNationality();
-            List<Integer> values = new ArrayList<>();
-            if (!map.containsKey(key)) {
-                values.add(p.getAge());
-                map.put(key, values);
-            } else {
-                values = map.get(key);
-                values.add(p.getAge());
-            }
-        }
+        Map<String, List<Integer>> map = groupAgeByCountry(persons);
         Map<String, Double> map2 = new HashMap<>();
         for (String key : map.keySet()) {
             List<Integer> values = map.get(key);
@@ -53,6 +42,22 @@ public class PersonMethods {
             map2.put(key, value);
         }
         printMap2(map2);
+    }
+
+    private Map<String, List<Integer>> groupAgeByCountry(List<Person> persons) {
+        Map<String, List<Integer>> map = new HashMap<>();
+        for (Person p : persons) {
+            String key = p.getNationality();
+            List<Integer> values = new ArrayList<>();
+            if (!map.containsKey(key)) {
+                values.add(p.getAge());
+                map.put(key, values);
+            } else {
+                values = map.get(key);
+                values.add(p.getAge());
+            }
+        }
+        return map;
     }
 
     public void printContentByAge(List<Person> persons) {
