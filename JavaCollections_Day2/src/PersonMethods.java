@@ -6,12 +6,13 @@ public class PersonMethods {
     public void countPersonByNationality(List<Person> persons) {
         Map<String, Integer> map = new HashMap<>();
         for (Person p : persons) {
-            if (!map.containsKey(p.getNationality())) {
-                map.put(p.getNationality(), 1);
+            String key = p.getNationality();
+            if (!map.containsKey(key)) {
+                map.put(key, 1);
             } else {
-                int count = map.get(p.getNationality());
-                count++;
-                map.put(p.getNationality(), count);
+                int value = map.get(key);
+                value++;
+                map.put(key, value);
             }
         }
         printMap(map);
@@ -31,25 +32,25 @@ public class PersonMethods {
         Map<String, List<Integer>> map = new HashMap<>();
         for (Person p : persons) {
             String key = p.getNationality();
-            List<Integer> ages = new ArrayList<>();
+            List<Integer> values = new ArrayList<>();
             if (!map.containsKey(key)) {
-                ages.add(p.getAge());
-                map.put(key, ages);
+                values.add(p.getAge());
+                map.put(key, values);
             } else {
-                ages = map.get(key);
-                ages.add(p.getAge());
+                values = map.get(key);
+                values.add(p.getAge());
             }
         }
         Map<String, Double> map2 = new HashMap<>();
         for (String key : map.keySet()) {
-            List<Integer> ages = map.get(key);
+            List<Integer> values = map.get(key);
             int sum = 0;
-            for (Integer age : ages) {
+            for (Integer age : values) {
                 sum += age;
             }
-            double avg = calAvg(sum, ages.size());
-            double averageAge = Math.floor(avg * 10) / 10;
-            map2.put(key, averageAge);
+            double averageAge = calAvg(sum, values.size());
+            double value = Math.floor(averageAge * 10) / 10;
+            map2.put(key, value);
         }
         printMap2(map2);
     }
