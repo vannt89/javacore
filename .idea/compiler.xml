@@ -2,16 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JUnit5_Assert" />
+        <module name="JUnit5_AssertJ" />
         <module name="Day15_Collections" />
+        <module name="Day14_Exception" />
         <module name="Day13_StringBuilder" />
         <module name="BaiKiemTra" />
-        <module name="Day14_Exception" />
-        <module name="JUnit5_AssertJ" />
+        <module name="JUnit5_Assert" />
+        <module name="PersonStream" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +24,7 @@
       <module name="JUnit5_Assert" target="8" />
       <module name="JUnit5_Assertion" target="8" />
       <module name="JUnit5_AssertJ" target="8" />
+      <module name="PersonStream" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
